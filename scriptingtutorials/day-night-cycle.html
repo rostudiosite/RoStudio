@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoStudio</title>
+    <link rel="stylesheet" href="/info.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-color:rgb(0, 0, 0);">
+
+    <div>
+
+        <div class="home-container">
+
+            <nav class="navbar">
+                <div class="navbar__container">
+                  <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/index.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/tutorials.html" class="navbar__links">Tutorials</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/documentations.html" class="navbar__links">Documentations</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <div class="backgroundbox">
+
+                <h1>How to make a day / night cycle??</h1>
+
+                <p>Today we will be creating a day / night cycle in Roblox Lua. Throughout this tutorial, you will be learning how to use <a href="/scriptingtutorials/day-night-cycle.html">loops</a>.</p>
+
+                <h3>Setup:</h3>
+
+                <p>Inside ServerScriptService create a Server Script. You can name it whatever you want.</p>
+
+                <h3>Scripting:</h3>
+
+                <p>Now we will move on to scripting.</p>
+
+                <p>First we will start with our variables.</p>
+
+                <pre>
+                    <code>
+local WaitTime = 0.1
+local ChangeBy = 0.5
+                    </code>
+                </pre>
+
+                <iframe data-aa='1996065' src='//ad.a-ads.com/1996065?size=970x90' style='width:970px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+
+                <p>Now we will create a loop to change the time with the cooldown of "WaitTime".</p>
+
+                <pre>
+                    <code>
+local WaitTime = 0.1
+local ChangeBy = 0.5
+
+while wait(WaitTime) do
+
+end               
+                    </code>
+                </pre>
+
+                <iframe data-aa='1996065' src='//ad.a-ads.com/1996065?size=970x90' style='width:970px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+
+                <p>Finally inside the loop we will change the time by "ChangeBy".</p>
+
+                <pre>
+                    <code>
+local WaitTime = 0.1
+local ChangeBy = 0.5
+
+while wait(WaitTime) do
+    game.Lighting.ClockTime = game.Lighting.ClockTime + ChangeBy
+end                                             
+                    </code>
+                </pre>
+
+                <iframe data-aa='1996065' src='//ad.a-ads.com/1996065?size=970x90' style='width:970px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+
+                <h3>We are done!</h3>
+                
+                <div class="videocontainer">
+                    <video id="video" src="/media/video3.mp4" controls="" autoplay="" loop="" muted="">
+                </div>
+
+            </div>    
+
+        </div>
+    </div>
+
+      
+</body>
+</html>
