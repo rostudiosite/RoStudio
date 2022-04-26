@@ -3,7 +3,7 @@ const searchBar = document.getElementById('searchBar');
 let hpCharacters = [
     {"name": "How to make a e to enter vehicle?", "image": '/media/tutorial1.png', "link": "/scriptingtutorials/e-to-enter-vehicle.html"},
     {"name": "How to make a shift to sprint?", "image": '/media/tutorial2.png', "link": "/scriptingtutorials/shift-to-sprint.html"},
-    {"name": "How to make a day / night cycle?", "image": '/media/tutorial3.png', "link": "/scriptingtutorials/e-to-enter-vehicle.html"},
+    {"name": "How to make a day / night cycle?", "image": '/media/tutorial3.png', "link": "/scriptingtutorials/day-night-cycle.html"},
 ];
 
 
