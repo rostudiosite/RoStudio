@@ -22,10 +22,10 @@
 
   .home-container {
     width: 100%;
-    min-height: 115vh;
+    min-height: 100vh;
     background-attachment: fixed;
     background-color: black;
-    background-image: linear-gradient(0deg, rgb(0, 0, 0) 0.00%,rgb(0, 128, 255) 100.00%);
+    background-image: linear-gradient(0deg, rgb(0, 0, 0) 0.00%,rgb(0, 128, 255) 25.00%);
 }
 
   /* Navbar */
@@ -208,17 +208,35 @@
   }
 
   .tutorial-blue-black-box {
-    margin-top: 1rem;
     height: fit-content;
-    width: 100%;
+    min-width: 100%;
     border-radius: 25px;
     background-image: linear-gradient(180deg, rgb(0, 0, 0) 0.00%,rgb(0, 56, 255) 100.00%);
   }
 
-  .discord-blue-white-box {
-    margin-bottom: 1rem;
+
+  .opposite-blue-black-box-light {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     height: fit-content;
-    width: 100%;
+    max-width: 80%;
+    min-width: fit-content;
+    border-radius: 25px;
+    display: block;
+    background-image: linear-gradient(180deg, rgb(0, 170, 255) 0.00%,rgb(81, 0, 255) 100.00%);
+    box-shadow: 5px 5px 20px 0px #3992ff;
+    transition: all 0.7s ease;
+  }
+
+  .opposite-blue-black-box-light:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 25px 0px #3992ff;
+  }
+
+  .discord-blue-white-box {
+    height: fit-content;
+    min-width: 100%;
     border-radius: 25px;
     background-image: linear-gradient(180deg, rgb(255, 255, 255) 0.00%,rgb(0, 56, 255) 100.00%);
   }
@@ -233,6 +251,22 @@
     margin: 0 auto;
     display: grid;
     grid-gap: 2rem;
+  }
+
+  .rotate_anim {
+    transition: transform .7s ease-in-out;
+  }
+
+  .rotate_anim:hover {
+    transform: rotate(360deg);
+  }
+
+  .size_anim {
+    transition: transform .4s ease-in-out;
+  }
+
+  .size_anim:hover {
+    transform: scale(1.2);
   }
   
   @media (min-width: 600px) {
@@ -257,3 +291,8 @@
   a {
     text-decoration: none;
   }
+
+
+  /* Effects */
+
+  
