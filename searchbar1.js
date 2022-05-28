@@ -6,6 +6,7 @@ let hpCharacters = [
     {"name": "How to make a day / night cycle?", "image": '/media/tutorial3.png', "link": "/scriptingtutorials/day-night-cycle", "skill": "(Simple)"},
     {"name": "How to make a coin animation?", "image": '/media/tutorial4.png', "link": "/scriptingtutorials/coin-animation", "skill": "(Simple)"},
     {"name": "How to make a clickable teleporter", "image": '/media/tutorial5.png', "link": "/scriptingtutorials/clickable-teleporter", "skill": "(Simple)"},
+    {"name": "What are modules?", "image": '/media/module_script.png', "link": "/scriptingtutorials/modules", "skill": "(Medium)"},
 ];
 
 

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <meta name="description" content="Roblox Studio Unions, what are they and how could we use them?">
-    <meta name="keywords" content="roblox studio union, union, roblox">
+    <meta name="description" content="Roblox Studio Modules, what are they and how could we use them?">
+    <meta name="keywords" content="module, roblox studio, roblox tutorial">
     <meta name="author" content="RoStudio">
 
-    <title>Unions Roblox Studio</title>
+    <title>Modules Roblox Studio</title>
 
     <link rel="icon" type="image/x-icon" href="/media/RoStudioIcon.png">
 
@@ -51,37 +51,61 @@
 
               <div class="backgroundbox">
 
-                <h1>Roblox Studio Unions, what are they and how could we use them?</h1>
+                <h1>Roblox Studio Modules, what are they and how could we use them?</h1>
 
-                <img alt="Image of lot's of parts." style="max-width: 23rem; margin-left: 2rem;" id="image" src="/media/unions.png" />
+                <p style="font-size: 1.5rem;">In this tutorial we will be explaining everything about modules and how you can use them.</p>
 
-                <p style="font-size: 1.5rem;">In this tutorial we will be explaining everything about unions and how you can use them.</p>
+                <h3>What are module scripts?</h3>
 
-                <h3>What are unions?</h3>
-
-                <p style="font-size: 1.4rem;">You might be surprised at how simple it is. A union is just multiple parts merged into one.</p>
-
-                <img alt="Image of lot's of parts." style="max-width: 23rem; margin-left: 2rem;" id="image" src="/media/lotsofparts.png" />
-
-                <div style="text-align: center;">
-                    <script data-cfasync="false" type="text/javascript" src="//clearonclick.com/a/display.php?r=5924786"></script>
-                </div>
+                <p style="font-size: 1.4rem;">Module scripts are global scripts that return one value when called. In order to receive the value, you must call the require() function on it. Module scripts can contain lots of data that could be used across multiple scripts. Now let's move on to the next question, which is how you could use them.</p>
 
                 <h3>How could you use them?</h3>
 
-                <p style="font-size: 1.4rem;">You can use them for almost everything, you should only use them if you need to. Using unions, you can make multiple shapes and objects without using meshes. If you are working with a model full of parts, this would make your workspace much more organized.</p>
-
-                <p style="font-size: 1.4rem;">You don't only have to use them for merging parts together! They have multiple other purposes!</p>
-
-                <h3>Downsides?</h3>
-
-                <p style="font-size: 1.4rem;">Sadly, almost everything has a downside; unions aren't that lag-efficient. When looking at a union, it's just multiple parts made into one. Currently, it's not that efficient, but that shouldn't stop you from using them. Just only use them when needed.</p>
+                <p style="font-size: 1.4rem;">They are mostly used as global variables and global functions; you should only use them when you want to access something across multiple scripts.</p>
 
                 <div style="text-align: center;">
                     <script data-cfasync="false" type="text/javascript" src="//clearonclick.com/a/display.php?r=5924786"></script>
                 </div>
 
-            </div>    
+                <h3>How to use them?</h3>
+
+                <p style="font-size: 1.4rem;">Using them is pretty simple. You can create a module anywhere and access it from a script. You should store your modules in Server Storage for server scripts and in Replicated Storage for local scripts.</p>
+
+                <div style="text-align: center;">
+                    <script data-cfasync="false" type="text/javascript" src="//clearonclick.com/a/display.php?r=5924786"></script>
+                </div>
+
+                <h3>Code example:</h3>
+
+                <p style="font-size: 1.4rem;">Module script inside Server Storage:</p>
+
+                <pre>
+                    <code>
+local ModuleMessage = "Password: 12345"      
+
+return ModuleMessage
+                    </code>
+                </pre>
+
+                <p style="font-size: 1.4rem;">Server script inside Server Script Service:</p>
+
+                <pre>
+                    <code>
+local ModuleMessage = require(game.ServerScriptService.ModuleScript) 
+
+print(ModuleMessage)
+                    </code>
+                </pre>
+
+                <h3>Downsides?</h3>
+
+                <p style="font-size: 1.4rem;">Modules basically have no downsides. They are used for almost everything.</p>
+
+                <div style="text-align: center;">
+                    <script data-cfasync="false" type="text/javascript" src="//clearonclick.com/a/display.php?r=5924786"></script>
+                </div>
+
+            </div>
 
             <div style="padding-top: -1rem;" class="backgroundbox">
 
