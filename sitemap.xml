@@ -9,28 +9,34 @@
 
 <url>
   <loc>https://rostudio.org/</loc>
-  <lastmod>2022-05-28T18:50:58+00:00</lastmod>
   <priority>1.00</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://rostudio.org/learn</loc>
-  <lastmod>2022-05-28T18:50:58+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://rostudio.org/tutorials</loc>
-  <lastmod>2022-05-28T18:50:59+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://rostudio.org/scripting</loc>
-  <lastmod>2022-05-28T18:50:59+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://rostudio.org/building</loc>
-  <lastmod>2022-05-28T18:50:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://rostudio.org/scriptingtutorials/clickable-teleporter</loc>
+  <priority>0.6</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 

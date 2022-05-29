@@ -1,7 +1,7 @@
 const charactersList = document.getElementById('tutorialList');
 const searchBar = document.getElementById('searchBar');
 let hpCharacters = [
-    {"name": "What are unions?", "image": '/media/uniontutorialicon.png', "link": "/buildingtutorials/unions", "skill": "(Normal)"},
+    {"name": "What are unions?", "image": '/media/uniontutorialicon.png', "link": "/building/unions", "skill": "(Normal)"},
 ];
 
 
