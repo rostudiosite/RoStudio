@@ -34,4 +34,52 @@
 </url>
 
 
+
+<!-- Tutorials Scripting -->
+
+<url>
+  <loc>https://rostudio.org/scripting/clickable-teleporter</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://rostudio.org/scripting/coin-animation</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://rostudio.org/scripting/day-night-cycle</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://rostudio.org/scripting/e-to-enter-vehicle</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://rostudio.org/scripting/modules</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://rostudio.org/scripting/shift-to-script</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+<!-- Tutorials Building -->
+
+<url>
+  <loc>https://rostudio.org/building/unions</loc>
+  <priority>0.7</priority>
+  <changefreq>weekly</changefreq>
+</url>
+
+
 </urlset>
