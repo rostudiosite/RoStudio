@@ -293,6 +293,14 @@
   }
 
 
-  /* Effects */
+  /* Ads */
 
+  .ad {
+    text-align: center;
+  }
   
+    @media only screen and (max-width: 740px) {
+        .ad {
+          display: none;
+        }
+    }

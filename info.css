@@ -157,3 +157,13 @@
     padding-left: 1rem;
     color: #FFF;
   }
+
+  .ad {
+    text-align: center;
+  }
+  
+    @media only screen and (max-width: 910px) {
+        .ad {
+          display: none;
+        }
+    }

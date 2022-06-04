@@ -322,3 +322,15 @@ body {
   .padding {
     padding-top: 1rem;
   }
+
+    /* Ads */
+
+    .ad {
+      text-align: center;
+    }
+    
+      @media only screen and (max-width: 930px) {
+          .ad {
+            display: none;
+          }
+      }
